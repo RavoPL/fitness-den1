@@ -1,0 +1,380 @@
+[
+   {
+      "pk":1,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5001340155",
+         "name":"Optimum Nutrition Creatine",
+         "description":"Creatine is supplying Pure Creatine Monohydrate - the most researched and the most cost-effective form of creatine that there is. These capsules and powder are powerful enough for you to use for creatine loading and maintenance, supporting sporting performance.",
+         "price":17.99,
+         "category":1,
+         "rating":4.2,
+         "image_url":"https://evergreen.ie/cdn/shop/products/optimum_nutrition_creatine_powder.jpg?v=1624524584&width=360",
+         "image":"optimumnutrition_creatine.png"
+      }
+   },
+   {
+      "pk":2,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5001600425",
+         "name":"Flexi Nutrition Creatine Powder",
+         "description":"Flexi Nutrition Creatine monohydrate increases physical performance in successive bursts of short term, high intensity training.",
+         "price":19.99,
+         "category":1,
+         "rating":4.6,
+         "image_url":"https://evergreen.ie/cdn/shop/products/flexi-nutrition-creatine.jpg?v=1662732581&width=360",
+         "image":"flexinutrition_creatine.png"
+      }
+   },
+   {
+      "pk":3,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5001730010",
+         "name":"Kinetica 100% Creatine - Unflavoured",
+         "description":"Flavourless and powerful, Kinetica 100% Creatine is tested to comply to WADA exacting standards under the Informed Sport testing regime.",
+         "price":38.99,
+         "category":1,
+         "rating":4.7,
+         "image_url":"https://evergreen.ie/cdn/shop/products/KineticaCreatine.jpg?v=1643123838&width=360",
+         "image":"kinetica_creatine.png"
+      }
+   },
+   {
+      "pk":4,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5001890157",
+         "name":"Optimum Nutrition Gold Standard Whey Protein",
+         "description":"Optimum Nutrition Gold Standard Whey Protein is the industrys leading whey protein. By using whey protein isolates and Hydrowhey as the primary ingredients, Optimum Nutrition pack fastest muscle-building protein into each serving with a lot less of the lactose, fat, cholesterol and other stuff that you could do without.",
+         "price":35.99,
+         "category":2,
+         "rating":4.5,
+         "image_url":"https://evergreen.ie/cdn/shop/products/optimum-nutrition-gold-standard-whey-protein.jpg?v=1662729951&width=360",
+         "image":"optimumnutrition_goldwhey.png"
+      }
+   },
+   {
+      "pk":5,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5002111605",
+         "name":"Flexi Nutrition Whey Protein",
+         "description":"Flexi Nutrition Whey Protein Sourced from Irish, Free-Range, Grass Fed dairy and contains an optimum blend of Instantised, De-lactosed Pure Whey Protein Isolate, Whey Protein Concentrate & Hydrolysed Whey.",
+         "price":34.99,
+         "category":2,
+         "rating":5.0,
+         "image_url":"https://evergreen.ie/cdn/shop/products/flexinutrition.jpg?v=1624525587&width=360",
+         "image":"flexinutrition_whey.png"
+      }
+   },
+   {
+      "pk":6,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5002260206",
+         "name":"NuZest Just Natural Clean Lean Protein",
+         "description":"NuZest Just Natural Clean Lean Protein is powerfully plant-based and complete with all 9 essential amino acids. Its a natural source of iron and encourages recovery, vitality, muscle repair and growth.",
+         "price":45.99,
+         "category":2,
+         "rating":4.7,
+         "image_url":"https://evergreen.ie/cdn/shop/files/nuzest-just-natural-clean-lean-protein-500g.jpg?v=1687360478&width=360",
+         "image":"nuzest_cleanprotein.png"
+      }
+   },
+   {
+      "pk":7,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5002440521",
+         "name":"Optimum Nutrition Amino Energy Fruit Fusion",
+         "description":"Optimum Nutritions Essential Amino Energy Fruit Fusion Powder combines an optimal ratio of rapidly absorbed free form amino acids (including BCAAs and arginine), as well as beta alanine and N.O.- boosting ingredients to help you reach your next level.",
+         "price":25.99,
+         "category":3,
+         "rating":4.4,
+         "image_url":"https://images.hollandandbarrettimages.co.uk/productimages/HB/1500/076734_A.jpg",
+         "image":"optimumnutrition_aminoenergy_fruit.png"
+      }
+   },
+   {
+      "pk":8,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5002601115",
+         "name":"Optimum Nutrition Amino Energy Lemon Lime",
+         "description":"Living a busy and full life can leave you needing a trusted partner to help you meet the everyday demands of life, work and training. The Worlds No.1 Sports Nutrition powder brand Optimum Nutrition brings you ESSENTIAL AMIN.O. ENERGY as the everyday essential food supplement to support your energy requirements.",
+         "price":25.99,
+         "category":3,
+         "rating":4.5,
+         "image_url":"https://images.hollandandbarrettimages.co.uk/productimages/HB/1500/048419_A.jpg",
+         "image":"optimumnutrition_aminoenergy_lemon.png"
+      }
+   },
+   {
+      "pk":9,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5002690715",
+         "name":"Optimum Nutrition Amino Energy Orange",
+         "description":"Optimum Nutritions Essential Amino Energy Fruit Fusion Powder combines an optimal ratio of rapidly absorbed free form amino acids (including BCAAs and arginine), as well as beta alanine and N.O.- boosting ingredients to help you reach your next level.",
+         "price":25.99,
+         "category":3,
+         "rating":4.7,
+         "image_url":"https://images.hollandandbarrettimages.co.uk/productimages/HB/1500/076733_A.jpg",
+         "image":"optimumnutrition_aminoenergy_orange.png"
+      }
+   },
+   {
+      "pk":10,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5002701115",
+         "name":"Multi Grip Pull Up Bar System",
+         "description":"Robust pull-up bar with many handles for indoor and outdoor use.",
+         "price":159.99,
+         "category":4,
+         "rating":4.4,
+         "image_url":"https://www.streetgains.eu//Files/6/104000/104439/ProductPhotos/1080/1879178805.jpg",
+         "image":"multigrip_pullupbar.png"
+      }
+   },
+   {
+      "pk":11,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5002761055",
+         "name":"Door Gym Pull Up Bar Chrome",
+         "description":"The compact chrome chin-up bar can be placed in almost any doorway.",
+         "price":29.99,
+         "category":4,
+         "rating":3.0,
+         "image_url":"https://www.streetgains.eu//Files/6/104000/104439/ProductPhotos/1080/1450402357.jpg",
+         "image":"door_pullupbar.png"
+      }
+   },
+   {
+      "pk":12,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5002820069",
+         "name":"Pro Chinning Bar",
+         "description":"The steel chin-up bar is easy to attach to the wall or ceiling.",
+         "price":79.99,
+         "category":4,
+         "rating":4.6,
+         "image_url":"https://www.streetgains.eu//Files/6/104000/104439/ProductPhotos/1080/431198331.jpg",
+         "image":"chinning_pullupbar.png"
+      }
+   },
+   {
+      "pk":13,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5002820147",
+         "name":"Adjustable Fitness Equalizer Dip Bars",
+         "description":"Compete, exercise or simply relax in comfort with a classic tee from Champion, the brand that's been making quality athletic apparel since 1919.  regular fit crewneck taped neck left chest logo embroidery cotton except oxford and granite heather are cotton/polyester washable imported",
+         "price":109.99,
+         "category":5,
+         "rating":3.8,
+         "image_url":"https://www.streetgains.eu//Files/6/104000/104439/ProductPhotos/1080/1051771235.png2",
+         "image":"adjustable_parallettes.png"
+      }
+   },
+   {
+      "pk":14,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5002910572",
+         "name":"Low Parallettes V2",
+         "description":"Due to the low design of the parallettes, these are ideal for practicing the handstand.",
+         "price":54.99,
+         "category":5,
+         "rating":4.7,
+         "image_url":"https://www.streetgains.eu//Files/6/104000/104439/ProductPhotos/1080/529339442.png",
+         "image":"low_parallettes.png"
+      }
+   },
+   {
+      "pk":15,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5002990740",
+         "name":"Crossmax Parallettes",
+         "description":"Set consists of two reliable parallettes powder coated in the color glossy black.",
+         "price":69.99,
+         "category":5,
+         "rating":4.8,
+         "image_url":"https://www.streetgains.eu//Files/6/104000/104439/ProductPhotos/1080/529334072.png",
+         "image":"normal_parallettes.png"
+      }
+   },
+   {
+      "pk":16,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5003050248",
+         "name":"Weight Vest 10KG",
+         "description":"Comfortable weight vest with a slim-fit fit, adjustable to a maximum of 10 kg.",
+         "price":69.99,
+         "category":6,
+         "rating":4.4,
+         "image_url":"https://www.streetgains.eu//Files/6/104000/104439/ProductPhotos/1080/502500942.png",
+         "image":"vest_ten_black.png"
+      }
+   },
+   {
+      "pk":17,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5003070787",
+         "name":"Weight Vest 20KG",
+         "description":"Comfortable weight vest that can be adjusted from 1 to a maximum of 20 kg.",
+         "price":124.99,
+         "category":6,
+         "rating":4.5,
+         "image_url":"https://www.streetgains.eu//Files/6/104000/104439/ProductPhotos/1080/344792305.jpg",
+         "image":"vest_twenty_black.png"
+      }
+   },
+   {
+      "pk":18,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5003090182",
+         "name":"Weight Vest 30KG",
+         "description":"With a maximum weight of 30 kg, this is the heaviest weight vest in our range.",
+         "price":199.99,
+         "category":6,
+         "rating":4.1,
+         "image_url":"https://www.streetgains.eu//Files/6/104000/104439/ProductPhotos/1080/1473218021.jpg",
+         "image":"vest_thirty_black.png"
+      }
+   },
+   {
+      "pk":19,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5005630545",
+         "name":"Optimum Nutrition Pre-Workout - Fruit Punch",
+         "description":"A fruit punch flavoured formulation of naturally sourced caffeine, B vitamins and creatine. This has been formulated to assist you in reaching your ultimate strength while training.",
+         "price":29.99,
+         "category":7,
+         "rating":4.3,
+         "image_url":"https://evergreen.ie/cdn/shop/files/optimum-nutrition-gold-standard-pre-workout-fruit-punch.jpg?v=1686929951&width=360",
+         "image":"optimumnutrition_pre_fruitpunch.png"
+      }
+   },
+   {
+      "pk":20,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5005860263",
+         "name":"Optimum Nutrition Pre-Workout - Watermelon",
+         "description":"A powerful formulation of naturally sourced caffeine, B vitamins and creatine, designed to assist you in reaching your ultimate strength while training in a delicious watermelon flavour.",
+         "price":29.99,
+         "category":7,
+         "rating":4.4,
+         "image_url":"https://evergreen.ie/cdn/shop/files/Optimum-Nutrition-Gold-Standard-Pre-Workout_da560dbb-1c86-4d46-9106-67cf3e0d1783.jpg?v=1686929774&width=360",
+         "image":"optimumnutrition_pre_watermelon.png"
+      }
+   },
+   {
+      "pk":21,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5006280064",
+         "name":"Optimum Nutrition Pre-Workout - Green Apple",
+         "description":"This green apple flavoured pre-workout contributes not only to power and performance (with 3 grams of creatine), but also helps you to stay focused, alert and energised throughout your workout.",
+         "price":29.99,
+         "category":7,
+         "rating":4.3,
+         "image_url":"https://evergreen.ie/cdn/shop/files/optimum-nutrition-gold-standard-pre-workout-green-apple.jpg?v=1686930186&width=360",
+         "image":"optimumnutrition_pre_greenapple.png"
+      }
+   },
+   {
+      "pk":22,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5001600425",
+         "name":"Holland and Barrett Ultra Man - 30 Tablets",
+         "description":"Holland and Barrett's Ultra Man is a comprehensive multivitamin and mineral supplement. The synergistic blend of essential nutrients provides nutritional support for men, in a convenient once-a-day tablet.",
+         "price":9.99,
+         "category":8,
+         "rating":3.9,
+         "image_url":"https://images.hollandandbarrettimages.co.uk/productimages/HB/1500/049861_A.jpg",
+         "image":"hollandbarret_ultraman.png"
+      }
+   },
+   {
+      "pk":23,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5002440521",
+         "name":"USN Ashwagandha - 30 Capsules",
+         "description":"USN's Ashwagandha uses a patented ashwagandha extract to ensure high quality and concentration. Improves the body's resistance to stress and helps maintain mental balance whilst supporting the onset of sleep. Also supports learning, memory and recall.",
+         "price":29.99,
+         "category":8,
+         "rating":4.8,
+         "image_url":"https://images.hollandandbarrettimages.co.uk/productimages/HB/1500/036994_A.jpg",
+         "image":"usn_ashwagandha.png"
+      }
+   },
+   {
+      "pk":24,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5003270936",
+         "name":"Holland and Barrett Super Multivitamins and Minerals - 60 Tablets",
+         "description":"Holland and Barrett specially formulated multi-vitamin and multi-mineral supplement, designed to be our highest strength formula. A selection of digestive enzymes, amino acids, lecithin and additional substances for nutritional support conveniently packed into a one-a-day caplet.",
+         "price":29.99,
+         "category":8,
+         "rating":4.8,
+         "image_url":"https://images.hollandandbarrettimages.co.uk/productimages/HB/1500/047357_A.jpg",
+         "image":"hollandbarret_multivitamins.png"
+      }
+   },
+   {
+      "pk":25,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5003690116",
+         "name":"ABS StreetGains Gymnastic Rings",
+         "description":"Two high-quality ABS rings with numbered straps, steel closures and a carrying bag.",
+         "price":39.99,
+         "category":9,
+         "rating":4.1,
+         "image_url":"https://www.streetgains.eu//Files/6/104000/104439/ProductPhotos/1080/1637847891.jpg",
+         "image":"abs_gymnastic_rings.png"
+      }
+   },
+   {
+      "pk":26,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5003960062",
+         "name":"Lifemaxx Wooden Gymnastic Rings",
+         "description":"Set consists of two wooden rings with numbered straps and steel closures.",
+         "price":59.99,
+         "category":9,
+         "rating":4.4,
+         "image_url":"https://www.streetgains.eu//Files/6/104000/104439/ProductPhotos/1080/528507762.png",
+         "image":"lifemaxx_gymnastic_rings.png"
+      }
+   },
+   {
+      "pk":27,
+      "model":"products.product",
+      "fields":{
+         "sku":"pp5004940703",
+         "name":"StreetGains Resistance Fitness Bands",
+         "description":"Set consists of six premium Resistance Bands.",
+         "price":89.99,
+         "category":9,
+         "rating":4.7,
+         "image_url":"https://www.streetgains.eu//Files/6/104000/104439/ProductPhotos/1080/1771336587.jpg",
+         "image":"streetgains_resistance_bands.png"
+      }
+   }
+]
