@@ -9,6 +9,7 @@ from profiles.models import UserProfile
 
 import json
 import time
+import logging
 
 
 class StripeWH_Handler:
@@ -26,6 +27,11 @@ class StripeWH_Handler:
         body = render_to_string(
             'checkout/confirmation_emails/confirmation_email_body.txt',
             {'order': order, 'contact_email': settings.DEFAULT_FROM_EMAIL})
+        logging.info('test')
+        logging.info(subject)
+        logging.info(body)
+        logging.info(settings.DEFAULT_FROM_EMAIL)
+        logging.info([cust_email])
 
         send_mail(
             subject,

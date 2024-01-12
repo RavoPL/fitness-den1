@@ -27,10 +27,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = 'True'
-DEBUG = 'DEVELOPMENT' in os.environ
+DEBUG = 'True'
+# DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['localhost', 'fitness-den-01445db6e33a.herokuapp.com', '8000-ravopl-fitnessden-bcfr6ponxjq.ws-eu107.gitpod.io']
+ALLOWED_HOSTS = ['localhost', 'fitness-den-01445db6e33a.herokuapp.com', '8000-ravopl-fitnessden-bcfr6ponxjq.ws-eu107.gitpod.io', '8000-ravopl-fitnessden1-cvmtg8bi8yq.ws-eu107.gitpod.io']
 
 
 # Application definition
@@ -118,6 +118,22 @@ LOGIN_URL = '/accounts/login/'  # url to log in
 LOGIN_REDIRECT_URL = '/'  # url to redirect to after logging in
 
 WSGI_APPLICATION = 'fitness_den.wsgi.application'
+
+# Manual Testing Code
+
+LOGGING = {
+"version": 1,
+"disable_existing_loggers": False,
+"handlers": {
+"console": {
+"class": "logging.StreamHandler",
+},
+},
+"root": {
+"handlers": ["console"],
+"level": "INFO",
+},
+}
 
 
 # Database
