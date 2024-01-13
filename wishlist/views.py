@@ -1,30 +1,74 @@
 from django.shortcuts import render, redirect, reverse, HttpResponse, get_object_or_404
 from django.contrib import messages
+from django.contrib.auth.decorators import login_required
+from django.db.models import Q
+from django.db.models.functions import Lower
 
-from products.models import Product, Wishlist
+from products.models import Product, Category
+from wishlist.models import Wishlist
 
 # Create your views here.
 
-# Viewing the wishlist
-def view_wishlist(request, user_id):
-    """ A view that renders the wishlist contents page """
-    # wishlist = Wishlist.objects.filter(user=request.user)
-    # context = {'wishlist':wishlist}
+def all_wishlist(request):
+    """ A view to show all wishlist items, including sorting and search queries """
+
+    print('test')
+    products = Wishlist.objects.all()
+    print(products)
+    query = None
+    categories = None
+    sort = None
+    direction = None
+
+    if request.GET:
+        if 'sort' in request.GET:
+            sortkey = request.GET['sort']
+            sort = sortkey
+            if sortkey == 'name':
+                sortkey = 'lower_name'
+                products = products.annotate(lower_name=Lower('name'))
+
+            if sortkey == 'category':
+                sortkey = 'category__name'
+
+            if 'direction' in request.GET:
+                direction = request.GET['direction']
+                if direction == 'desc':
+                    sortkey = f'-{sortkey}'
+            products = products.order_by(sortkey)
+
+        if 'category' in request.GET:
+            categories = request.GET['category'].split(',')
+            products = products.filter(category__name__in=categories)
+            categories = Category.objects.filter(name__in=categories)
+
+        if 'q' in request.GET:
+            query = request.GET['q']
+            if not query:
+                messages.error(request, "You didn't enter any search criteria!")
+                return redirect(reverse('products'))
+
+            queries = Q(name__icontains=query) | Q(description__icontains=query)
+            products = products.filter(queries)
+
+    current_sorting = f'{sort}_{direction}'
+
+    context = {
+        'products': products,
+        'search_term': query,
+        'current_categories': categories,
+        'current_sorting': current_sorting,
+    }
 
     return render(request, 'wishlist/wishlist.html', context)
 
-# Adding items to the wishlist
-@login_required
-def add_to_wishlist(request, item_id, user_id):
-    """ Add a quantity of the specified product to the wishlist """
+# Viewing the wishlist
+# def view_wishlist(request, user_id):
+#     """ A view that renders the wishlist contents page """
+#     # wishlist = Wishlist.objects.filter(user=request.user)
+#     # context = {'wishlist':wishlist}
 
-    if 'wishlist' in request.POST:
-        product = get_object_or_404(Product, pk=item_id)
-        redirect_url = request.POST.get('redirect_url')
-
-        messages.info(request,'The item was added to your wishlist.')
-
-        return redirect(redirect_url)
+#     return render(request, 'wishlist/wishlist.html', context)
 
 
 # Removing items from the wishlist
