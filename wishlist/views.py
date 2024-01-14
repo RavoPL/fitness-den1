@@ -9,13 +9,11 @@ from wishlist.models import Wishlist
 
 # Create your views here.
 
-
+@login_required
 def view_wishlist(request):
     """ A view to show all wishlist items, including sorting and search queries """
 
-    print('test')
-    products = Wishlist.objects.all()
-    print(products)
+    products = Product.objects.filter(wishlist__user=request.user.id)
     query = None
     categories = None
     sort = None
@@ -63,20 +61,13 @@ def view_wishlist(request):
 
     return render(request, 'wishlist/wishlist.html', context)
 
-# Viewing the wishlist
-# def view_wishlist(request, user_id):
-#     """ A view that renders the wishlist contents page """
-#     # wishlist = Wishlist.objects.filter(user=request.user)
-#     # context = {'wishlist':wishlist}
-
-#     return render(request, 'wishlist/wishlist.html', context)
-
 
 # Removing items from the wishlist
 @login_required
-def remove_from_wishlist(request, item_id, user_id):
+def remove_from_wishlist(request, product_id):
     """ Remove the item from the wishlist """
 
-    product = get_object_or_404(Product, pk=item_id)
-
-    return redirect(redirect_url)
+    product = Wishlist.objects.filter(product__id=product_id)
+    product.delete()
+    messages.success(request, 'Product removed from wishlist!')
+    return redirect(reverse('wishlist'))
