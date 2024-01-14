@@ -9,7 +9,8 @@ from wishlist.models import Wishlist
 
 # Create your views here.
 
-def all_wishlist(request):
+
+def view_wishlist(request):
     """ A view to show all wishlist items, including sorting and search queries """
 
     print('test')
