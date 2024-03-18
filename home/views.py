@@ -38,7 +38,5 @@ def submit_contact(request):
 
 def view_wishlist(request):
     """ A view that renders the wishlist contents page """
-    # wishlist = Wishlist.objects.filter(user=request.user)
-    # context = {'wishlist':wishlist}
 
     return render(request, 'wishlist/wishlist.html')

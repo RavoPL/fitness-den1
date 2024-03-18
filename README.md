@@ -198,7 +198,7 @@ Corresponding to **User Story - Reviews**([#29](https://github.com/RavoPL/fitnes
 
 ### Contact Form
 
-Custom *Contact Form* model - **FINISHED** - made entirely by me
+Custom *Contact Form* model - **FINISHED**
 
 Corresponding to **User Story - Contact Form**([#30](https://github.com/RavoPL/fitness-den/issues/30))
 
@@ -206,7 +206,11 @@ Corresponding to **User Story - Contact Form**([#30](https://github.com/RavoPL/f
 
 ### Wishlist
 
-Custom *Wishlist* model - **WORK IN PROGRESS**
+Custom *Wishlist* model - **FINISHED**
+
+Corresponding to **User Story - Wishlist**([#31](https://github.com/RavoPL/fitness-den1/issues/31))
+
+![Image of My Wishlist Model](media/WishlistModel.png)
 
 ## Technologies Used
 
@@ -245,6 +249,8 @@ Custom *Wishlist* model - **WORK IN PROGRESS**
   <summary>Full HTML Validation</summary>
   <img src="media/testing/html_one.png" alt="Full Validation One" title="Full HTML Validation One">
   <img src="media/testing/html_two.png" alt="Full Validation Two" title="Full HTML Validation Two">
+  <img src="media/testing/html_three.png" alt="Full Validation Three" title="Full HTML Validation Three">
+  <img src="media/testing/html_four.png" alt="Full Validation Four" title="Full HTML Validation Four">
 </details>
 
 ### CSS Validation
@@ -468,6 +474,16 @@ Custom *Wishlist* model - **WORK IN PROGRESS**
 
 <br>
 
+<br>
+
+10. *As a site user I can access my wishlist and store products for later purchase.*
+
+| **Feature**  | **Expected Result** | **Action Taken** | **Result** |
+| ------------- | ------------- | ------------- | ------------- |
+| Wishlist | User can access wishlist | Searched for product and added to wishlist | Works as Intended |
+
+<br>
+
 ##### Testing of Accounts and Management
 
 <br>
@@ -618,15 +634,13 @@ Custom *Wishlist* model - **WORK IN PROGRESS**
 
 | **Feature**  | **Expected Result** | **Action Taken** | **Result** |
 | ------------- | ------------- | ------------- | ------------- |
-| E-Mail Confirmation after Checkout | User receives order confirmation through e-mail | Made test order | **CURRENTLY BROKEN** |
+| E-Mail Confirmation after Checkout | User receives order confirmation through e-mail | Made test order | Works as Intended |
 
 <br>
 
 ## Known Bugs
 
-**E-Mails** - Everything seems to work except for e-mail confirmation after payment.
-
-**Wishlist Model** - Work in progress.
+N/A
 
 ## Deployment
 
