@@ -5,7 +5,7 @@ Developed by **Dorian Wolarz**, a Code Institute Student
 
 [LINK TO HEROKU VERSION](https://fitness-den-01445db6e33a.herokuapp.com/)
 
-![The Fitness Den on a PC](N/A)
+![The Fitness Den on a PC](media/fitness-readme-image.png)
 
 ## Contents
 1. [Project Goals](#project-goals)
